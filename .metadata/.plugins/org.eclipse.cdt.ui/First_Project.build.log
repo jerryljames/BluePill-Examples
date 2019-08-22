@@ -1,0 +1,17 @@
+13:11:38 **** Incremental Build of configuration Debug for project First_Project ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "First_Project.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/jerryl/STM32CubeIDE/BluePill-Examples/First_Project/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="First_Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: First_Project.elf
+ 
+arm-none-eabi-objdump -h -S  First_Project.elf  > "First_Project.list"
+arm-none-eabi-size   First_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4708	     20	   1572	   6300	   189c	First_Project.elf
+Finished building: default.size.stdout
+ 
+Finished building: First_Project.list
+ 
+
+13:11:41 Build Finished. 0 errors, 0 warnings. (took 2s.388ms)
+

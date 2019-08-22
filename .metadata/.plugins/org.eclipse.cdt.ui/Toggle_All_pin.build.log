@@ -1,0 +1,17 @@
+10:43:46 **** Incremental Build of configuration Debug for project Toggle_All_pin ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Toggle_All_pin.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/jerryl/STM32CubeIDE/BluePill-Examples/Toggle_All_pin/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Toggle_All_pin.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Toggle_All_pin.elf
+ 
+arm-none-eabi-objdump -h -S  Toggle_All_pin.elf  > "Toggle_All_pin.list"
+arm-none-eabi-size   Toggle_All_pin.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4880	     20	   1572	   6472	   1948	Toggle_All_pin.elf
+Finished building: default.size.stdout
+ 
+Finished building: Toggle_All_pin.list
+ 
+
+10:43:46 Build Finished. 0 errors, 0 warnings. (took 269ms)
+

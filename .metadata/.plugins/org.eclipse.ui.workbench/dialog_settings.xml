@@ -16,4 +16,11 @@
 		<item key="DIALOG_X_ORIGIN" value="380"/>
 		<item key="DIALOG_Y_ORIGIN" value="10"/>
 	</section>
+	<section name="InstallationDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="-47"/>
+		<item key="DIALOG_Y_ORIGIN" value="-172"/>
+		<item key="DIALOG_WIDTH" value="702"/>
+		<item key="DIALOG_HEIGHT" value="741"/>
+		<item key="DIALOG_FONT_NAME" value="1|Noto Sans|9.0|0|GTK|1|"/>
+	</section>
 </section>
