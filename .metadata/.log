@@ -8511,3 +8511,9 @@ java.lang.IllegalStateException: Call stack for thread main
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-15 21:39:00.871
+!MESSAGE Indexed 'Blinky_LowLevel' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-15 21:39:04.102
+!MESSAGE Indexed 'Blinky_LowLevel' (19 sources, 78 headers) in 1.19 sec: 3,712 declarations; 13,117 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
