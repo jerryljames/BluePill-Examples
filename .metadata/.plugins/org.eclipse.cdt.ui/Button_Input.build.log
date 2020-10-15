@@ -1,0 +1,10 @@
+13:06:29 **** Incremental Build of configuration Debug for project Button_Input ****
+make -j8 all 
+arm-none-eabi-size   Button_Input.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4952	     24	   1568	   6544	   1990	Button_Input.elf
+Finished building: default.size.stdout
+ 
+
+13:06:29 Build Finished. 0 errors, 0 warnings. (took 104ms)
+

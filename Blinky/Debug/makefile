@@ -35,13 +35,16 @@ Blinky.list \
 OBJCOPY_HEX += \
 Blinky.hex \
 
+OBJCOPY_BIN += \
+Blinky.bin \
+
 
 # All Target
 all: Blinky.elf secondary-outputs
 
 # Tool invocations
-Blinky.elf: $(OBJS) $(USER_OBJS) /home/jerryl/STM32CubeIDE/BluePill-Examples/Blinky/STM32F103C8TX_FLASH.ld
-	arm-none-eabi-gcc -o "Blinky.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"/home/jerryl/STM32CubeIDE/BluePill-Examples/Blinky/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blinky.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Blinky.elf: $(OBJS) $(USER_OBJS) /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky/STM32F103C8TX_FLASH.ld
+	arm-none-eabi-gcc -o "Blinky.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"/home/jerryl/Git/Github_Public/BluePill-Examples/Blinky/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blinky.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -60,12 +63,17 @@ Blinky.hex: $(EXECUTABLES)
 	@echo 'Finished building: $@'
 	@echo ' '
 
+Blinky.bin: $(EXECUTABLES)
+	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "Blinky.bin"
+	@echo 'Finished building: $@'
+	@echo ' '
+
 # Other Targets
 clean:
 	-$(RM) *
 	-@echo ' '
 
-secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST) $(OBJCOPY_HEX)
+secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST) $(OBJCOPY_HEX) $(OBJCOPY_BIN)
 
 .PHONY: all clean dependents
 .SECONDARY:

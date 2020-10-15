@@ -1,35 +1,33 @@
-10:43:03 **** Incremental Build of configuration Debug for project Toggle_All_pin ****
+13:06:15 **** Incremental Build of configuration Debug for project Button_Input ****
 make -j8 all 
-arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
-arm-none-eabi-gcc -o "Toggle_All_pin.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/jerryl/STM32CubeIDE/BluePill-Examples/Toggle_All_pin/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Toggle_All_pin.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Toggle_All_pin.elf
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+../Core/Src/stm32f1xx_it.c: In function 'EXTI1_IRQHandler':
+../Core/Src/stm32f1xx_it.c:206:2: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+  for(int i=0; i<65535; i++);
+  ^~~
+../Core/Src/stm32f1xx_it.c:207:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+   if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_1))
+   ^~
+arm-none-eabi-gcc -o "Button_Input.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/jerryl/Git/Github_Public/BluePill-Examples/Button_Input/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Button_Input.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Button_Input.elf
  
-arm-none-eabi-objdump -h -S  Toggle_All_pin.elf  > "Toggle_All_pin.list"
-arm-none-eabi-size   Toggle_All_pin.elf 
+arm-none-eabi-objdump -h -S  Button_Input.elf  > "Button_Input.list"
+arm-none-eabi-objcopy  -O binary  Button_Input.elf  "Button_Input.bin"
+arm-none-eabi-size   Button_Input.elf 
    text	   data	    bss	    dec	    hex	filename
-   4880	     20	   1572	   6472	   1948	Toggle_All_pin.elf
+   4952	     24	   1568	   6544	   1990	Button_Input.elf
 Finished building: default.size.stdout
  
-Finished building: Toggle_All_pin.list
+Finished building: Button_Input.bin
  
-10:43:11 **** Incremental Build of configuration Debug for project Toggle_All_pin ****
+Finished building: Button_Input.list
+ 
+13:06:29 **** Incremental Build of configuration Debug for project Button_Input ****
 make -j8 all 
-arm-none-eabi-size   Toggle_All_pin.elf 
+arm-none-eabi-size   Button_Input.elf 
    text	   data	    bss	    dec	    hex	filename
-   4880	     20	   1572	   6472	   1948	Toggle_All_pin.elf
+   4952	     24	   1568	   6544	   1990	Button_Input.elf
 Finished building: default.size.stdout
- 
-10:43:46 **** Incremental Build of configuration Debug for project Toggle_All_pin ****
-make -j8 all 
-arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
-arm-none-eabi-gcc -o "Toggle_All_pin.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/jerryl/STM32CubeIDE/BluePill-Examples/Toggle_All_pin/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Toggle_All_pin.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Toggle_All_pin.elf
- 
-arm-none-eabi-objdump -h -S  Toggle_All_pin.elf  > "Toggle_All_pin.list"
-arm-none-eabi-size   Toggle_All_pin.elf 
-   text	   data	    bss	    dec	    hex	filename
-   4880	     20	   1572	   6472	   1948	Toggle_All_pin.elf
-Finished building: default.size.stdout
- 
-Finished building: Toggle_All_pin.list
  
