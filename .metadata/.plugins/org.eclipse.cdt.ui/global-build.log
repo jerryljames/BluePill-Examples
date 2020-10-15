@@ -1,33 +1,49 @@
-13:06:15 **** Incremental Build of configuration Debug for project Button_Input ****
+21:25:51 **** Incremental Build of configuration Debug for project Button Input INTR Lowlevel ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc -o "Button Input INTR Lowlevel.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/jerryl/Git/Github_Public/BluePill-Examples/Button Input INTR Lowlevel/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Button Input INTR Lowlevel.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Button Input INTR Lowlevel.elf
+ 
+arm-none-eabi-objdump -h -S  Button\ Input\ INTR\ Lowlevel.elf  > "Button Input INTR Lowlevel.list"
+arm-none-eabi-objcopy  -O binary  Button\ Input\ INTR\ Lowlevel.elf  "Button Input INTR Lowlevel.bin"
+arm-none-eabi-size   Button\ Input\ INTR\ Lowlevel.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4868	     24	   1568	   6460	   193c	Button Input INTR Lowlevel.elf
+Finished building: default.size.stdout
+ 
+Finished building: Button Input INTR Lowlevel.bin
+ 
+Finished building: Button Input INTR Lowlevel.list
+ 
+21:26:12 **** Incremental Build of configuration Debug for project Button Input INTR Lowlevel ****
+make -j8 all 
+arm-none-eabi-size   Button\ Input\ INTR\ Lowlevel.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4868	     24	   1568	   6460	   193c	Button Input INTR Lowlevel.elf
+Finished building: default.size.stdout
+ 
+21:27:07 **** Incremental Build of configuration Debug for project Button Input INTR Lowlevel ****
+make -j8 all 
+arm-none-eabi-size   Button\ Input\ INTR\ Lowlevel.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4868	     24	   1568	   6460	   193c	Button Input INTR Lowlevel.elf
+Finished building: default.size.stdout
+ 
+21:33:09 **** Incremental Build of configuration Debug for project Button Input INTR Lowlevel ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
 arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
-arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
-../Core/Src/stm32f1xx_it.c: In function 'EXTI1_IRQHandler':
-../Core/Src/stm32f1xx_it.c:206:2: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
-  for(int i=0; i<65535; i++);
-  ^~~
-../Core/Src/stm32f1xx_it.c:207:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
-   if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_1))
-   ^~
-arm-none-eabi-gcc -o "Button_Input.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/jerryl/Git/Github_Public/BluePill-Examples/Button_Input/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Button_Input.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Button_Input.elf
+arm-none-eabi-gcc -o "Button Input INTR Lowlevel.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/jerryl/Git/Github_Public/BluePill-Examples/Button Input INTR Lowlevel/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Button Input INTR Lowlevel.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Button Input INTR Lowlevel.elf
  
-arm-none-eabi-objdump -h -S  Button_Input.elf  > "Button_Input.list"
-arm-none-eabi-objcopy  -O binary  Button_Input.elf  "Button_Input.bin"
-arm-none-eabi-size   Button_Input.elf 
+arm-none-eabi-objdump -h -S  Button\ Input\ INTR\ Lowlevel.elf  > "Button Input INTR Lowlevel.list"
+arm-none-eabi-objcopy  -O binary  Button\ Input\ INTR\ Lowlevel.elf  "Button Input INTR Lowlevel.bin"
+arm-none-eabi-size   Button\ Input\ INTR\ Lowlevel.elf 
    text	   data	    bss	    dec	    hex	filename
-   4952	     24	   1568	   6544	   1990	Button_Input.elf
+   4872	     24	   1568	   6464	   1940	Button Input INTR Lowlevel.elf
 Finished building: default.size.stdout
  
-Finished building: Button_Input.bin
+Finished building: Button Input INTR Lowlevel.bin
  
-Finished building: Button_Input.list
- 
-13:06:29 **** Incremental Build of configuration Debug for project Button_Input ****
-make -j8 all 
-arm-none-eabi-size   Button_Input.elf 
-   text	   data	    bss	    dec	    hex	filename
-   4952	     24	   1568	   6544	   1990	Button_Input.elf
-Finished building: default.size.stdout
+Finished building: Button Input INTR Lowlevel.list
  

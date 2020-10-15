@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Blinky.elf,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Toggle_All_pin.elf,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Button_Input Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Blinky.elf,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Toggle_All_pin.elf,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Button_Input Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Button Input INTR Lowlevel Debug
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Blinky.elf/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Blinky.elf/activeLaunchTarget=null\:---

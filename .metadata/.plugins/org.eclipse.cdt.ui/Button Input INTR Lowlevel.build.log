@@ -1,0 +1,21 @@
+21:33:09 **** Incremental Build of configuration Debug for project Button Input INTR Lowlevel ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc -o "Button Input INTR Lowlevel.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/jerryl/Git/Github_Public/BluePill-Examples/Button Input INTR Lowlevel/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Button Input INTR Lowlevel.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Button Input INTR Lowlevel.elf
+ 
+arm-none-eabi-objdump -h -S  Button\ Input\ INTR\ Lowlevel.elf  > "Button Input INTR Lowlevel.list"
+arm-none-eabi-objcopy  -O binary  Button\ Input\ INTR\ Lowlevel.elf  "Button Input INTR Lowlevel.bin"
+arm-none-eabi-size   Button\ Input\ INTR\ Lowlevel.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4872	     24	   1568	   6464	   1940	Button Input INTR Lowlevel.elf
+Finished building: default.size.stdout
+ 
+Finished building: Button Input INTR Lowlevel.bin
+ 
+Finished building: Button Input INTR Lowlevel.list
+ 
+
+21:33:09 Build Finished. 0 errors, 0 warnings. (took 343ms)
+
