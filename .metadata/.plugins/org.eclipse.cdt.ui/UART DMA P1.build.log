@@ -1,0 +1,10 @@
+20:33:51 **** Incremental Build of configuration Debug for project UART DMA P1 ****
+make -j8 all 
+arm-none-eabi-size   UART\ DMA\ P1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7816	     20	   1732	   9568	   2560	UART DMA P1.elf
+Finished building: default.size.stdout
+ 
+
+20:33:51 Build Finished. 0 errors, 0 warnings. (took 86ms)
+

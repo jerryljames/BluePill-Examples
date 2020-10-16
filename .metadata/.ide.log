@@ -1711,3 +1711,168 @@
 2020-10-16 10:36:40,496 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 1532mS.
 2020-10-16 10:36:40,497 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.
 2020-10-16 10:36:40,498 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.
+2020-10-16 18:46:14,787 [INFO] MainUpdater:2230 - connection check result : 10
+2020-10-16 18:46:14,787 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2020-10-16 18:46:14,865 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2020-10-16 18:46:14,866 [INFO] FinderPluginLoader:86 - Searching for filters in installed packs
+2020-10-16 18:46:15,744 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2020-10-16 18:46:15,745 [INFO] McuDetailPanel:181 - Set advertising image to /home/jerryl/STM32Cube/Repository//STM32H72x3x_NB.jpg
+2020-10-16 18:46:15,970 [INFO] McuFilterPanel:249 - Update 1 favorites MCUs
+2020-10-16 18:46:16,122 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2020-10-16 18:46:16,122 [INFO] BoardDetailPanel:180 - Set advertising image to /home/jerryl/STM32Cube/Repository//STM32H72x3x_NB.jpg
+2020-10-16 18:46:16,134 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
+2020-10-16 18:46:16,145 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: /home/jerryl/.stmcufinder/plugins/mcufinder/mcu/cs_comparisons_mx
+2020-10-16 18:46:43,526 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.2
+2020-10-16 18:46:43,526 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.1
+2020-10-16 18:46:43,527 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.0
+2020-10-16 18:46:43,641 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] File copied successfully!!
+2020-10-16 18:46:43,680 [INFO] MainUpdater:2230 - connection check result : 10
+2020-10-16 18:46:43,724 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-10-16 18:46:43,724 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-10-16 18:46:43,727 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-10-16 18:46:43,730 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 607190608 Bytes (954204160)
+2020-10-16 18:46:43,730 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-10-16 18:46:43,731 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-10-16 18:46:43,731 [INFO] OpenFileManager:274 - Change cursor
+2020-10-16 18:46:43,740 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2020-10-16 18:46:44,283 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2020-10-16 18:46:44,283 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.PinsNb) in loaded IOC file
+2020-10-16 18:46:44,283 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.IPNb) in loaded IOC file
+2020-10-16 18:46:44,330 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 598187856 Bytes (954204160)
+2020-10-16 18:46:44,333 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1586325943599]
+2020-10-16 18:46:44,334 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : OS Tick GTIM id : 1586325942926
+2020-10-16 18:46:44,334 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1586325946175, 1586325943682]
+2020-10-16 18:46:44,407 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 5.0.0
+2020-10-16 18:46:44,407 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.1.0
+2020-10-16 18:46:44,407 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.1.0
+2020-10-16 18:46:44,407 [INFO] ThirdParty:899 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2020-10-16 18:46:44,407 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.1.1
+2020-10-16 18:46:44,407 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-10-16 18:46:44,407 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.0.0
+2020-10-16 18:46:44,407 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.1.0
+2020-10-16 18:46:44,407 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.0.0
+2020-10-16 18:46:44,408 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 2.0.0
+2020-10-16 18:46:44,408 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.0.0
+2020-10-16 18:46:44,408 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.2
+2020-10-16 18:46:44,408 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.1.0
+2020-10-16 18:46:44,408 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.0.0
+2020-10-16 18:46:44,408 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.0
+2020-10-16 18:46:44,408 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 1.0.0
+2020-10-16 18:46:44,489 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-10-16 18:46:44,490 [INFO] PinOutPanel:1420 - setPackage(STM32F103C8Tx,LQFP48)
+2020-10-16 18:46:44,688 [INFO] UtilMem:74 - Before build in PCC Used Memory: 673983152 Bytes (954204160)
+2020-10-16 18:46:44,846 [INFO] SharedServices:71 - Folder for power plug-in: /home/jerryl/.stm32cubemx/plugins/power
+2020-10-16 18:46:44,895 [INFO] SharedServices:71 - Folder for power plug-in: /home/jerryl/.stm32cubemx/plugins/power
+2020-10-16 18:46:44,930 [INFO] SharedServices:71 - Folder for power plug-in: /home/jerryl/.stm32cubemx/plugins/power
+2020-10-16 18:46:44,933 [INFO] SharedServices:71 - Folder for power plug-in: /home/jerryl/.stm32cubemx/plugins/power
+2020-10-16 18:46:44,974 [INFO] UtilMem:74 - After build in PCC Used Memory: 715399864 Bytes (954204160)
+2020-10-16 18:46:44,984 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,984 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,984 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,985 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,985 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,985 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,985 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,985 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,986 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,986 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,986 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,986 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,987 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,987 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,987 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,987 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,988 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,988 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,988 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,988 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,988 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,989 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,989 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,989 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,989 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,990 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:44,990 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 18:46:45,053 [INFO] OpenFileManager:294 - Restore cursor
+2020-10-16 18:46:45,169 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 740043440 Bytes (954204160)
+2020-10-16 18:46:45,185 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 742140592 Bytes (954204160)
+2020-10-16 18:46:45,507 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-10-16 18:46:45,507 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-10-16 18:46:45,508 [INFO] CodeGenerator:603 - code generatio: config db path: /opt/st/stm32cubeide_1.3.0/plugins/com.st.stm32cube.common.mx_5.6.0.202002181639//db/
+2020-10-16 18:46:45,735 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/MXTmpFiles/license.tmp_save
+2020-10-16 18:46:45,797 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/MXTmpFiles/license.tmp
+2020-10-16 18:46:45,815 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-10-16 18:46:45,815 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-10-16 18:46:45,817 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Src/stm32f1xx_it.c_save
+2020-10-16 18:46:45,886 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Src/stm32f1xx_it.c
+2020-10-16 18:46:45,888 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Inc/stm32f1xx_it.h_save
+2020-10-16 18:46:45,959 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Inc/stm32f1xx_it.h
+2020-10-16 18:46:45,963 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Src/stm32f1xx_hal_msp.c_save
+2020-10-16 18:46:46,056 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Src/stm32f1xx_hal_msp.c
+2020-10-16 18:46:46,058 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/MXTmpFiles/system.tmp_save
+2020-10-16 18:46:46,123 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/MXTmpFiles/system.tmp
+2020-10-16 18:46:46,125 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Inc/stm32f1xx_hal_conf.h_save
+2020-10-16 18:46:46,204 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Inc/stm32f1xx_hal_conf.h
+2020-10-16 18:46:46,214 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Inc/main.h_save
+2020-10-16 18:46:46,286 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Inc/main.h
+2020-10-16 18:46:46,288 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Src/main.c_save
+2020-10-16 18:46:46,390 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Src/main.c
+2020-10-16 18:46:47,124 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 61mS.
+2020-10-16 18:46:47,126 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-10-16 18:46:47,533 [INFO] ConfigFileManager:1066 - The Die is : DIE410
+2020-10-16 18:46:49,823 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 2697mS.
+2020-10-16 18:46:49,824 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-10-16 18:46:49,825 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-10-16 18:46:59,000 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-10-16 18:47:01,662 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-10-16 18:52:31,948 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 460880736 Bytes (1072693248)
+2020-10-16 18:52:32,153 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 475366800 Bytes (1072693248)
+2020-10-16 18:52:32,399 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-10-16 18:52:32,399 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: USART
+2020-10-16 18:52:32,399 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: DMA
+2020-10-16 18:52:32,399 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-10-16 18:52:32,399 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-10-16 18:52:32,399 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: RCC
+2020-10-16 18:52:32,399 [INFO] CodeGenerator:603 - code generatio: config db path: /opt/st/stm32cubeide_1.3.0/plugins/com.st.stm32cube.common.mx_5.6.0.202002181639//db/
+2020-10-16 18:52:32,627 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/MXTmpFiles/license.tmp_save
+2020-10-16 18:52:32,690 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/MXTmpFiles/license.tmp
+2020-10-16 18:52:32,725 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Src/gpio.c_save
+2020-10-16 18:52:32,795 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Src/gpio.c
+2020-10-16 18:52:32,808 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Inc/gpio.h_save
+2020-10-16 18:52:32,876 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Inc/gpio.h
+2020-10-16 18:52:32,984 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-10-16 18:52:32,984 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for DMA
+2020-10-16 18:52:32,985 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-10-16 18:52:33,007 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Src/dma.c_save
+2020-10-16 18:52:33,109 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Src/dma.c
+2020-10-16 18:52:33,115 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Inc/dma.h_save
+2020-10-16 18:52:33,185 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Inc/dma.h
+2020-10-16 18:52:33,185 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-10-16 18:52:33,186 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for USART
+2020-10-16 18:52:33,186 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-10-16 18:52:33,202 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Src/usart.c_save
+2020-10-16 18:52:33,318 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Src/usart.c
+2020-10-16 18:52:33,329 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Inc/usart.h_save
+2020-10-16 18:52:33,403 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Inc/usart.h
+2020-10-16 18:52:33,403 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-10-16 18:52:33,404 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-10-16 18:52:33,408 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Src/stm32f1xx_it.c_save
+2020-10-16 18:52:33,513 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Src/stm32f1xx_it.c
+2020-10-16 18:52:33,515 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Inc/stm32f1xx_it.h_save
+2020-10-16 18:52:33,612 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Inc/stm32f1xx_it.h
+2020-10-16 18:52:33,619 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Src/stm32f1xx_hal_msp.c_save
+2020-10-16 18:52:33,750 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Src/stm32f1xx_hal_msp.c
+2020-10-16 18:52:33,752 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/MXTmpFiles/system.tmp_save
+2020-10-16 18:52:33,828 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/MXTmpFiles/system.tmp
+2020-10-16 18:52:33,830 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Inc/stm32f1xx_hal_conf.h_save
+2020-10-16 18:52:33,911 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Inc/stm32f1xx_hal_conf.h
+2020-10-16 18:52:33,925 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Inc/main.h_save
+2020-10-16 18:52:33,999 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Inc/main.h
+2020-10-16 18:52:34,001 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Src/main.c_save
+2020-10-16 18:52:34,090 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/UART DMA P1/Core/Src/main.c
+2020-10-16 18:52:34,889 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 39mS.
+2020-10-16 18:52:34,891 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-10-16 18:52:35,269 [INFO] ConfigFileManager:1066 - The Die is : DIE410
+2020-10-16 18:52:37,201 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 2310mS.
+2020-10-16 18:52:37,202 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.
+2020-10-16 18:52:37,203 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.

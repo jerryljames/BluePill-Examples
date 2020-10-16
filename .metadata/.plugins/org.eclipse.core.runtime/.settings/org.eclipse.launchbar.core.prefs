@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Blinky.elf,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Toggle_All_pin.elf,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Button_Input Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Button Input INTR Lowlevel Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Blinky_LowLevel,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Blinky Label Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Blinky Label LowLevel
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Blinky.elf,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Toggle_All_pin.elf,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Button_Input Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Button Input INTR Lowlevel Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Blinky_LowLevel,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Blinky Label Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Blinky Label LowLevel,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART DMA P1 Debug
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Blinky.elf/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Blinky.elf/activeLaunchTarget=null\:---
