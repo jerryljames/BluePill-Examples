@@ -1560,3 +1560,154 @@
 2020-10-16 10:24:59,121 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 1746mS.
 2020-10-16 10:24:59,121 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
 2020-10-16 10:24:59,122 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-10-16 10:34:48,943 [INFO] MainUpdater:2230 - connection check result : 10
+2020-10-16 10:34:48,944 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2020-10-16 10:34:49,010 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2020-10-16 10:34:49,010 [INFO] FinderPluginLoader:86 - Searching for filters in installed packs
+2020-10-16 10:34:49,854 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2020-10-16 10:34:49,854 [INFO] McuDetailPanel:181 - Set advertising image to /home/jerryl/STM32Cube/Repository//STM32H72x3x_NB.jpg
+2020-10-16 10:34:50,113 [INFO] McuFilterPanel:249 - Update 1 favorites MCUs
+2020-10-16 10:34:50,235 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2020-10-16 10:34:50,235 [INFO] BoardDetailPanel:180 - Set advertising image to /home/jerryl/STM32Cube/Repository//STM32H72x3x_NB.jpg
+2020-10-16 10:34:50,248 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
+2020-10-16 10:34:50,272 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: /home/jerryl/.stmcufinder/plugins/mcufinder/mcu/cs_comparisons_mx
+2020-10-16 10:35:12,807 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.2
+2020-10-16 10:35:12,808 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.1
+2020-10-16 10:35:12,809 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.0
+2020-10-16 10:35:12,854 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] File copied successfully!!
+2020-10-16 10:35:12,910 [INFO] MainUpdater:2230 - connection check result : 10
+2020-10-16 10:35:12,947 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-10-16 10:35:12,947 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-10-16 10:35:12,950 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-10-16 10:35:12,952 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 581936376 Bytes (832569344)
+2020-10-16 10:35:12,952 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-10-16 10:35:12,952 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-10-16 10:35:12,952 [INFO] OpenFileManager:274 - Change cursor
+2020-10-16 10:35:12,966 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2020-10-16 10:35:13,638 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2020-10-16 10:35:13,638 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.PinsNb) in loaded IOC file
+2020-10-16 10:35:13,638 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.IPNb) in loaded IOC file
+2020-10-16 10:35:13,714 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 709792392 Bytes (832569344)
+2020-10-16 10:35:13,719 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1586325943599]
+2020-10-16 10:35:13,719 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : OS Tick GTIM id : 1586325942926
+2020-10-16 10:35:13,720 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1586325946175, 1586325943682]
+2020-10-16 10:35:13,865 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 5.0.0
+2020-10-16 10:35:13,865 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.1.0
+2020-10-16 10:35:13,866 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.1.0
+2020-10-16 10:35:13,866 [INFO] ThirdParty:899 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2020-10-16 10:35:13,866 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.1.1
+2020-10-16 10:35:13,866 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-10-16 10:35:13,866 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.0.0
+2020-10-16 10:35:13,866 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.1.0
+2020-10-16 10:35:13,866 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.0.0
+2020-10-16 10:35:13,866 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 2.0.0
+2020-10-16 10:35:13,866 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.0.0
+2020-10-16 10:35:13,866 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.2
+2020-10-16 10:35:13,866 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.1.0
+2020-10-16 10:35:13,867 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.0.0
+2020-10-16 10:35:13,867 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.0
+2020-10-16 10:35:13,867 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 1.0.0
+2020-10-16 10:35:13,952 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-10-16 10:35:13,953 [INFO] PinOutPanel:1420 - setPackage(STM32F103C8Tx,LQFP48)
+2020-10-16 10:35:14,186 [INFO] UtilMem:74 - Before build in PCC Used Memory: 538125800 Bytes (832569344)
+2020-10-16 10:35:14,367 [INFO] SharedServices:71 - Folder for power plug-in: /home/jerryl/.stm32cubemx/plugins/power
+2020-10-16 10:35:14,424 [INFO] SharedServices:71 - Folder for power plug-in: /home/jerryl/.stm32cubemx/plugins/power
+2020-10-16 10:35:14,459 [INFO] SharedServices:71 - Folder for power plug-in: /home/jerryl/.stm32cubemx/plugins/power
+2020-10-16 10:35:14,462 [INFO] SharedServices:71 - Folder for power plug-in: /home/jerryl/.stm32cubemx/plugins/power
+2020-10-16 10:35:14,516 [INFO] UtilMem:74 - After build in PCC Used Memory: 579542512 Bytes (832569344)
+2020-10-16 10:35:14,527 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,527 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,527 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,527 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,528 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,528 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,528 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,528 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,528 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,528 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,528 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,529 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,529 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,529 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,529 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,529 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,529 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,529 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,530 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,530 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,530 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,530 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,530 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,530 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,531 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,531 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,532 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-10-16 10:35:14,557 [INFO] OpenFileManager:294 - Restore cursor
+2020-10-16 10:35:14,699 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 603137512 Bytes (832569344)
+2020-10-16 10:35:14,721 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 606283240 Bytes (832569344)
+2020-10-16 10:35:14,961 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-10-16 10:35:14,962 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-10-16 10:35:14,962 [INFO] CodeGenerator:603 - code generatio: config db path: /opt/st/stm32cubeide_1.3.0/plugins/com.st.stm32cube.common.mx_5.6.0.202002181639//db/
+2020-10-16 10:35:15,283 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/MXTmpFiles/license.tmp_save
+2020-10-16 10:35:15,356 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/MXTmpFiles/license.tmp
+2020-10-16 10:35:15,374 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-10-16 10:35:15,375 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-10-16 10:35:15,379 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Src/stm32f1xx_it.c_save
+2020-10-16 10:35:15,521 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Src/stm32f1xx_it.c
+2020-10-16 10:35:15,523 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Inc/stm32f1xx_it.h_save
+2020-10-16 10:35:15,585 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Inc/stm32f1xx_it.h
+2020-10-16 10:35:15,588 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Src/stm32f1xx_hal_msp.c_save
+2020-10-16 10:35:15,682 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Src/stm32f1xx_hal_msp.c
+2020-10-16 10:35:15,684 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/MXTmpFiles/system.tmp_save
+2020-10-16 10:35:15,748 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/MXTmpFiles/system.tmp
+2020-10-16 10:35:15,750 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Inc/stm32f1xx_hal_conf.h_save
+2020-10-16 10:35:15,823 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Inc/stm32f1xx_hal_conf.h
+2020-10-16 10:35:15,835 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Inc/main.h_save
+2020-10-16 10:35:15,903 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Inc/main.h
+2020-10-16 10:35:15,905 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Src/main.c_save
+2020-10-16 10:35:15,989 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Src/main.c
+2020-10-16 10:35:16,673 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 20mS.
+2020-10-16 10:35:16,675 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-10-16 10:35:17,002 [INFO] ConfigFileManager:1066 - The Die is : DIE410
+2020-10-16 10:35:19,011 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 2336mS.
+2020-10-16 10:35:19,011 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-10-16 10:35:19,012 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-10-16 10:35:24,185 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-10-16 10:35:26,471 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-10-16 10:35:54,137 [INFO] Gpio:248 - dependency for GPIO [RCC, SYS]
+2020-10-16 10:36:28,427 [INFO] Gpio:248 - dependency for GPIO [RCC, SYS]
+2020-10-16 10:36:36,994 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 392950288 Bytes (880803840)
+2020-10-16 10:36:37,182 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 407108104 Bytes (880803840)
+2020-10-16 10:36:37,360 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-10-16 10:36:37,360 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-10-16 10:36:37,360 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-10-16 10:36:37,360 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: RCC
+2020-10-16 10:36:37,360 [INFO] CodeGenerator:603 - code generatio: config db path: /opt/st/stm32cubeide_1.3.0/plugins/com.st.stm32cube.common.mx_5.6.0.202002181639//db/
+2020-10-16 10:36:37,527 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/MXTmpFiles/license.tmp_save
+2020-10-16 10:36:37,589 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/MXTmpFiles/license.tmp
+2020-10-16 10:36:37,608 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/MXTmpFiles/gpio.tmp_save
+2020-10-16 10:36:37,673 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/MXTmpFiles/gpio.tmp
+2020-10-16 10:36:37,679 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-10-16 10:36:37,679 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-10-16 10:36:37,681 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Src/stm32f1xx_it.c_save
+2020-10-16 10:36:37,765 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Src/stm32f1xx_it.c
+2020-10-16 10:36:37,767 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Inc/stm32f1xx_it.h_save
+2020-10-16 10:36:37,870 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Inc/stm32f1xx_it.h
+2020-10-16 10:36:37,875 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Src/stm32f1xx_hal_msp.c_save
+2020-10-16 10:36:38,029 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Src/stm32f1xx_hal_msp.c
+2020-10-16 10:36:38,032 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/MXTmpFiles/system.tmp_save
+2020-10-16 10:36:38,131 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/MXTmpFiles/system.tmp
+2020-10-16 10:36:38,134 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Inc/stm32f1xx_hal_conf.h_save
+2020-10-16 10:36:38,230 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Inc/stm32f1xx_hal_conf.h
+2020-10-16 10:36:38,239 [WARN] IPConfigManager:2701 - IP not found : gpio
+2020-10-16 10:36:38,239 [WARN] CodeGenerator:2649 - IP not found : gpio
+2020-10-16 10:36:38,241 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Inc/main.h_save
+2020-10-16 10:36:38,310 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Inc/main.h
+2020-10-16 10:36:38,312 [INFO] CodeEngine:188 - oldGeneratedFile, /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Src/main.c_save
+2020-10-16 10:36:38,400 [INFO] CodeEngine:206 - Generated code: /home/jerryl/Git/Github_Public/BluePill-Examples/Blinky Label LowLevel/Core/Src/main.c
+2020-10-16 10:36:38,963 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 10mS.
+2020-10-16 10:36:38,964 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-10-16 10:36:39,236 [INFO] ConfigFileManager:1066 - The Die is : DIE410
+2020-10-16 10:36:40,496 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 1532mS.
+2020-10-16 10:36:40,497 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.
+2020-10-16 10:36:40,498 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.

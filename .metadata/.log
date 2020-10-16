@@ -8557,3 +8557,9 @@ java.lang.RuntimeException
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-16 10:35:17.458
+!MESSAGE Indexed 'Blinky Label LowLevel' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-16 10:35:19.611
+!MESSAGE Indexed 'Blinky Label LowLevel' (21 sources, 68 headers) in 1.03 sec: 3,090 declarations; 7,515 references; 0 unresolved inclusions; 40 syntax errors; 1,479 unresolved names (12%)
