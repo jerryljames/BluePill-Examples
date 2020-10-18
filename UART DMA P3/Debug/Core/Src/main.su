@@ -1,0 +1,6 @@
+main.c:84:5:main	16	static
+main.c:135:6:SystemClock_Config	72	static
+main.c:169:1:__io_putchar	16	static
+main.c:178:6:HAL_UART_RxCpltCallback	16	static
+main.c:222:6:application_handling	16	static
+main.c:251:6:Error_Handler	4	static
