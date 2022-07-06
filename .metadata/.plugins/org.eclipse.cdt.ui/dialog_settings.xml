@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item key="org.eclipse.cdt.utils.ui.controls.FileListControl" value="-u _printf_float"/>
 	<section name="completion_proposal_size">
 	</section>
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
@@ -7,5 +8,25 @@
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration.internal">
 		<item key="size.width" value="521"/>
 		<item key="size.height" value="180"/>
+	</section>
+	<section name="CResourceRenameRefactoringInputPage">
+		<item key="updateReferences" value="true"/>
+	</section>
+	<section name="org.eclipse.cdt.internal.ui.browser.opentype.OpenTypeActionSettings">
+		<item key="show_namespaces" value="true"/>
+		<item key="show_classes" value="true"/>
+		<item key="show_structs" value="true"/>
+		<item key="show_typedefs" value="true"/>
+		<item key="show_enums" value="true"/>
+		<item key="show_unions" value="true"/>
+		<item key="show_functions" value="true"/>
+		<item key="show_variables" value="true"/>
+		<item key="show_enumerators" value="true"/>
+		<item key="show_macros" value="true"/>
+		<item key="show_lowlevel" value="true"/>
+		<item key="x" value="1773"/>
+		<item key="y" value="0"/>
+		<item key="width" value="555"/>
+		<item key="height" value="754"/>
 	</section>
 </section>

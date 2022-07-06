@@ -13,8 +13,8 @@
 		</list>
 	</section>
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="380"/>
-		<item key="DIALOG_Y_ORIGIN" value="10"/>
+		<item key="DIALOG_X_ORIGIN" value="475"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
 	</section>
 	<section name="InstallationDialogSettings">
 		<item key="DIALOG_X_ORIGIN" value="-47"/>
@@ -24,5 +24,10 @@
 		<item key="DIALOG_FONT_NAME" value="1|Noto Sans|9.0|0|GTK|1|"/>
 	</section>
 	<section name="ImportExportAction">
+	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+		<item key="actionSetFilter" value="true"/>
+		<item key="internalFilter" value="true"/>
+		<item key="uncategorizedFilter" value="true"/>
 	</section>
 </section>
